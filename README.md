@@ -15,4 +15,4 @@ Mandatory parameter is one of:
 - `-f "<file_path>"` to validate an XML on file system.
 - `-u "<url>"` to validate the XML response of a service.
 
-This tool requires the Apache HttpComponents™ libraries to perform the HTTP GET requests.
+This tool requires the [Apache HttpComponents™](https://hc.apache.org/) libraries to perform the HTTP GET requests.
