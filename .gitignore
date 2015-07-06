@@ -12,3 +12,5 @@
 /target/
 
 response.xml
+
+dependency-reduced-pom.xml
