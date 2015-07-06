@@ -3,9 +3,9 @@ by GraphiTech
 
 This tool is composed by a single Java class, which allows validating the XML response of services developed within the eENVplus project.
 
-To compile this software use the provided `pom.xml` with Maven.
+To compile this software use Apache Maven, inside project directory type: `mvn`
 
-To run the compiled JAR type in the terminal: `java -jar ComplianceTest.jar`
+To run the compiled JAR go inside `target` folder and type: `java -jar ServiceComplianceTest-<version>.jar`
 
 Optional parameter is: `-s "<schema.xsd>"` to force an XSD to be used.
 Otherwise the tool retrieves the XSD from the schemaLocation attribute in the XML document.
